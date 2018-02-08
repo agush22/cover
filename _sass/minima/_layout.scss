@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.logo,
+.social {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div{
+    flex: 1 1 0;
+    text-align: center;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .img-container {
+    img{
+      opacity: 1;
+    }
+  }
+  .centered {
+    max-width: 50%;
+  }
+  .smaller{
+    width: 25%;
+  }
+}
+.social {
+  width: 50%;
+  div>a{
+    background-color: black;
+    padding: 10px 15px;
+    opacity: 0.9;
+    border: 2px solid white;
+    border-radius: 15px;
+  }
+}
+
+
